@@ -1,5 +1,5 @@
 const Employee = require('../lib/Employee.js');
-describe(`Employee`, () => {
+describe('Employee', () => {
 
     // TEST 1 - no properties provided
     it(`An error is thrown if no properties are provided`, () => {
@@ -69,35 +69,35 @@ describe(`Employee`, () => {
 
     // TEST 9 - Employee object created when properties provided
     it(`An Employee object is created when the id, name and email properties are provided`, () => {
-        const employee = new Employee(2, 'Cean Sonnery', 'GoldFinger007@gmail.com');
+        const employee = new Employee(2, 'Cean Sonnery', 'GoldFinger007@jbmail.com');
         expect(employee).toEqual({
             id: 2,
             name: 'Cean Sonnery',
-            email: 'GoldFinger007@gmail.com',
+            email: 'GoldFinger007@jbmail.com',
         });
     })
 
     // TEST 10 - Gets the employee id when getId is called
     it(`Returns the Employee id when getId() is invoked`, () => {
-        const employee = new Employee(3, 'Leorge Gazenby', 'OnHerMajestysSecretService007@gmail.com');
+        const employee = new Employee(3, 'Leorge Gazenby', 'OnHerMajestysSecretService007@jbmail.com');
         expect(employee.getId()).toEqual(3);
     })
 
     // TEST 11 - Gets the employee name when getName is called
     it(`Returns the Employee name when getName() is invoked`, () => {
-        const employee = new Employee(4, 'Moger Roore', 'Moonraker007@gmail.com');
+        const employee = new Employee(4, 'Moger Roore', 'Moonraker007@jbmail.com');
         expect(employee.getName()).toEqual('Moger Roore');
     })
 
     // TEST 12 - Gets the employee email when getEmail is called
     it(`Returns the Employee email when getEmail() is invoked`, () => {
-        const employee = new Employee(5, 'Dimothy Talton', 'LicenceToKill007@gmail.com');
-        expect(employee.getEmail()).toEqual('LicenceToKill007@gmail.com');
+        const employee = new Employee(5, 'Dimothy Talton', 'LicenceToKill007@jbmail.com');
+        expect(employee.getEmail()).toEqual('LicenceToKill007@jbmail.com');
     })
 
     // TEST 13 - Gets the employee role when getRole is called
     it(`Returns the Employee role when getRole() is invoked`, () => {
-        const employee = new Employee(6, 'Bierce Prosnan', 'GoldenEye007@gmail.com');
+        const employee = new Employee(6, 'Bierce Prosnan', 'GoldenEye007@jbmail.com');
         expect(employee.getRole()).toEqual('Employee');
     })
 

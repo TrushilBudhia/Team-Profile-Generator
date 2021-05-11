@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager.js');
 
-describe(`Manager`, () => {
+describe('Manager', () => {
     // TEST 1
     it(`An error is thrown if office number is undefined`, () => {
         const result = () => {
@@ -36,5 +36,10 @@ describe(`Manager`, () => {
     it(`Returns the Manager role when getRole() is invoked`, () => {
         const manager = new Manager(1, 'Fan Ileming', 'JamesBond007@jbmail.com', 7);
         expect(manager.getRole()).toEqual('Manager');
+    })
+
+    it(`Returns the Manager office number when getOfficeNumber() is invoked`, () => {
+        const manager = new Manager(1, 'Fan Ileming', 'JamesBond007@jbmail.com', 7);
+        expect(manager.getOfficeNumber()).toEqual(7);
     })
 })
