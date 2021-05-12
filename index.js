@@ -4,5 +4,6 @@ const questions = require("./lib/questions.js");
 function init() {
     questions.promptInquirer();
 }
-// Initiating the process to begin inquirer prompting the user for answers to its questions
+
+// Initiating the process to begin inquirer prompting the user to answer the questions specified
 init();

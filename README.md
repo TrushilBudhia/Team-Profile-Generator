@@ -1,4 +1,4 @@
-# Team-Profile-Generator
+# Team Profile Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -58,6 +58,7 @@ The following image shows the tests of the application having been run and passe
 - [Jest](https://www.npmjs.com/package/jest)
 - [Prettier.js](https://prettier.io/)
 - [email-validator](https://www.npmjs.com/package/email-validator)
+- [Tailwind CSS](https://tailwindcss.com/) 
 - JavaScript
 
 ## License
