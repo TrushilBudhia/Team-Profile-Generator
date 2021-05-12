@@ -40,7 +40,7 @@ The application uses the inquirer, prettier and email-validator package modules.
 2. Once the prompts are all answered, the application will generate a report-sample.html file with the information provided
 
 ## Assets
-The link to a guide video that demonstrates the applications functionality: [TBC]
+The link to a guide video that demonstrates the applications functionality: [Guide Video](https://drive.google.com/file/d/1twYCIaWeegPdrW65UWJnXp0Vq1XxZOOF/view?usp=sharing)
 
 The following images shows the functionality of the application and the generated html report once the application has processed the information received:
 
@@ -54,9 +54,9 @@ The following image shows the tests of the application having been run and passe
 
 ## Technologies
 - [Node.js](https://nodejs.org/en/docs/)
-- [Inquirer.js](https://www.npmjs.com/package/inquirer)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Jest](https://www.npmjs.com/package/jest)
-- [Prettier.js](https://prettier.io/)
+- [Prettier](https://prettier.io/)
 - [email-validator](https://www.npmjs.com/package/email-validator)
 - [Tailwind CSS](https://tailwindcss.com/) 
 - JavaScript
